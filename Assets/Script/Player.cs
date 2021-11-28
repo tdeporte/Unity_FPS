@@ -4,22 +4,22 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    //public float gravity = 5;
-    public float translation;
-    public float rotation;
-    public float c_speed = 0.1f;
-    public float rotationSpeed = 100f;
+
     private Rigidbody  rigibBodyComponent;
 
-    //SAUT
-    public float jumpForce = 7f;
-    public bool isGrounded;
+    //Manual movement
+    CharacterController characterController;
 
+    public float c_speed = 1.0f;
+    public float jumpSpeed = 8.0f;
+    public float gravity = 20.0f;
+
+    private Vector3 moveDirection = Vector3.zero;
+
+    //Automatic movement
     public Vector3 destination;
-
-    private float distance = 2f;
-
     private int repel_force = 20;
+    public float distance = 10f;
 
 
     void go_to(Vector3 to){
@@ -58,9 +58,9 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
         rigibBodyComponent = gameObject.GetComponent<Rigidbody>() ;
-        destination = new Vector3(-8f,1f,-20f); 
+        destination = new Vector3(-8f,1f,-30f); 
+        characterController = GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
@@ -68,11 +68,35 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        
+        /*
         Vector3 position = rigibBodyComponent.position;
         if(Vector3.Distance(position, destination)>0.5){
             //go_to(destination);
         }
-        
+        */    
+
+        if (characterController.isGrounded)
+        {
+            // We are grounded, so recalculate
+            // move direction directly from axes
+
+            moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical"));
+            moveDirection *= c_speed;
+
+            if (Input.GetButton("Jump"))
+            {
+                moveDirection.y = jumpSpeed;
+            }
+        }
+
+        // Apply gravity. Gravity is multiplied by deltaTime twice (once here, and once below
+        // when the moveDirection is multiplied by deltaTime). This is because gravity should be applied
+        // as an acceleration (ms^-2)
+        moveDirection.y -= gravity * Time.deltaTime;
+
+        // Move the controller
+        characterController.Move(moveDirection * Time.deltaTime);
     }
 
     void FixedUpdate () {
