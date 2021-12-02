@@ -14,7 +14,6 @@ public class shoot : MonoBehaviour
     void FireLaser()
     {
         Vector3 gun_pos = transform.position + new Vector3(0.2f,0.04f,0.75f);
-        //Vector3 forward = transform.TransformDirection(Vector3.left) * range;
 
         Vector3 left = transform.TransformDirection(Vector3.left);
         RaycastHit hit;
@@ -38,12 +37,12 @@ public class shoot : MonoBehaviour
     {
         
         Vector3 gun_pos = transform.position + new Vector3(0.2f,0.04f,0.75f);
-        Vector3 left = transform.TransformDirection(Vector3.left);
-        
+        Vector3 forward = transform.TransformDirection(Vector3.forward);
+        Debug.DrawRay(transform.position, forward, Color.blue);
         
         if(Input.GetMouseButtonDown(0))
         {
-            Debug.DrawRay(transform.position, left, Color.blue);
+            Debug.DrawRay(transform.position, forward, Color.blue);
             FireLaser();
         }
         
