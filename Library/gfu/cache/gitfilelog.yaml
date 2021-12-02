@@ -1,0 +1,470 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -514704792, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 4
+  lastUpdatedAtString: 2021-12-02T08:36:47.784+01:00
+  initializedAtString: 2021-12-02T08:36:47.784+01:00
+  fileLog:
+    path: Assets
+    logEntries:
+    - commitID: 7ba08d783499cd8710a68eb9010915818b3c659f
+      mergeA: 
+      mergeB: 
+      authorName: tdeporte
+      authorEmail: tom.deporte@etu.u-bordeaux.fr
+      commitEmail: tom.deporte@etu.u-bordeaux.fr
+      commitName: tdeporte
+      summary: sfesdefs
+      description: 
+      timeString: 2021-11-28T23:05:30.000+01:00
+      commitTimeString: 2021-11-28T23:05:30.000+01:00
+      changes:
+      - path: Assets\Script\Autonomous_FPS.cs
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Script\Autonomous_FPS.cs
+        projectPath: Assets\Script\Autonomous_FPS.cs
+        originalPath: Assets\Script\Player.cs
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Script\Autonomous_FPS.cs.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Script\Autonomous_FPS.cs.meta
+        projectPath: Assets\Script\Autonomous_FPS.cs.meta
+        originalPath: Assets\Script\Player.cs.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Script\Manual_FPS.cs
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Script\Manual_FPS.cs
+        projectPath: Assets\Script\Manual_FPS.cs
+        originalPath: Assets\Script\SC_FPSController.cs
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Script\Manual_FPS.cs.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Script\Manual_FPS.cs.meta
+        projectPath: Assets\Script\Manual_FPS.cs.meta
+        originalPath: Assets\Script\SC_FPSController.cs.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Script\shoot.cs
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Script\shoot.cs
+        projectPath: Assets\Script\shoot.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\TP1.unity
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\TP1.unity
+        projectPath: Assets\TP1.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: c095d3ff2b19efa2aba254172789f7552d0ee224
+      mergeA: 
+      mergeB: 
+      authorName: tdeporte
+      authorEmail: tom.deporte@etu.u-bordeaux.fr
+      commitEmail: tom.deporte@etu.u-bordeaux.fr
+      commitName: tdeporte
+      summary: finish
+      description: 
+      timeString: 2021-11-28T22:03:18.000+01:00
+      commitTimeString: 2021-11-28T22:03:18.000+01:00
+      changes:
+      - path: Assets\Material\Grass.mat
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Material\Grass.mat
+        projectPath: Assets\Material\Grass.mat
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Material\Walls.mat
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Material\Walls.mat
+        projectPath: Assets\Material\Walls.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Material\Walls.mat.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Material\Walls.mat.meta
+        projectPath: Assets\Material\Walls.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Maze.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Maze.meta
+        projectPath: Assets\Maze.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Maze\Maze.prefab
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Maze\Maze.prefab
+        projectPath: Assets\Maze\Maze.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Maze\Maze.prefab.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Maze\Maze.prefab.meta
+        projectPath: Assets\Maze\Maze.prefab.meta
+        originalPath: Assets\Script\Player.prefab.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Maze\Mur.prefab
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Maze\Mur.prefab
+        projectPath: Assets\Maze\Mur.prefab
+        originalPath: Assets\Script\Player.prefab
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Maze\Mur.prefab.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Maze\Mur.prefab.meta
+        projectPath: Assets\Maze\Mur.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\SciFi Gun.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\SciFi Gun.meta
+        projectPath: Assets\SciFi Gun.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\SciFi Gun\Components.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\SciFi Gun\Components.meta
+        projectPath: Assets\SciFi Gun\Components.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\SciFi Gun\Components\Materials.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\SciFi Gun\Components\Materials.meta
+        projectPath: Assets\SciFi Gun\Components\Materials.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\SciFi Gun\Components\Materials\lambert1.mat
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\SciFi Gun\Components\Materials\lambert1.mat
+        projectPath: Assets\SciFi Gun\Components\Materials\lambert1.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\SciFi Gun\Components\Materials\lambert1.mat.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\SciFi Gun\Components\Materials\lambert1.mat.meta
+        projectPath: Assets\SciFi Gun\Components\Materials\lambert1.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\SciFi Gun\Components\SciFiGun.fbx
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\SciFi Gun\Components\SciFiGun.fbx
+        projectPath: Assets\SciFi Gun\Components\SciFiGun.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\SciFi Gun\Components\SciFiGun.fbx.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\SciFi Gun\Components\SciFiGun.fbx.meta
+        projectPath: Assets\SciFi Gun\Components\SciFiGun.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\SciFi Gun\Components\SciFiGun_Diffuse.mat
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\SciFi Gun\Components\SciFiGun_Diffuse.mat
+        projectPath: Assets\SciFi Gun\Components\SciFiGun_Diffuse.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\SciFi Gun\Components\SciFiGun_Diffuse.mat.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\SciFi Gun\Components\SciFiGun_Diffuse.mat.meta
+        projectPath: Assets\SciFi Gun\Components\SciFiGun_Diffuse.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\SciFi Gun\Components\SciFiGun_Specular.mat
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\SciFi Gun\Components\SciFiGun_Specular.mat
+        projectPath: Assets\SciFi Gun\Components\SciFiGun_Specular.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\SciFi Gun\Components\SciFiGun_Specular.mat.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\SciFi Gun\Components\SciFiGun_Specular.mat.meta
+        projectPath: Assets\SciFi Gun\Components\SciFiGun_Specular.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\SciFi Gun\Components\SciFiGun_coloring.jpg
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\SciFi Gun\Components\SciFiGun_coloring.jpg
+        projectPath: Assets\SciFi Gun\Components\SciFiGun_coloring.jpg
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\SciFi Gun\Components\SciFiGun_coloring.jpg.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\SciFi Gun\Components\SciFiGun_coloring.jpg.meta
+        projectPath: Assets\SciFi Gun\Components\SciFiGun_coloring.jpg.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\SciFi Gun\Components\SciFiGun_normals.jpg
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\SciFi Gun\Components\SciFiGun_normals.jpg
+        projectPath: Assets\SciFi Gun\Components\SciFiGun_normals.jpg
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\SciFi Gun\Components\SciFiGun_normals.jpg.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\SciFi Gun\Components\SciFiGun_normals.jpg.meta
+        projectPath: Assets\SciFi Gun\Components\SciFiGun_normals.jpg.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\SciFi Gun\SciFiGun_Diffuse.prefab
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\SciFi Gun\SciFiGun_Diffuse.prefab
+        projectPath: Assets\SciFi Gun\SciFiGun_Diffuse.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\SciFi Gun\SciFiGun_Diffuse.prefab.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\SciFi Gun\SciFiGun_Diffuse.prefab.meta
+        projectPath: Assets\SciFi Gun\SciFiGun_Diffuse.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\SciFi Gun\SciFiGun_Specular.prefab
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\SciFi Gun\SciFiGun_Specular.prefab
+        projectPath: Assets\SciFi Gun\SciFiGun_Specular.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\SciFi Gun\SciFiGun_Specular.prefab.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\SciFi Gun\SciFiGun_Specular.prefab.meta
+        projectPath: Assets\SciFi Gun\SciFiGun_Specular.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\FPS.cs
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Script\FPS.cs
+        projectPath: Assets\Script\FPS.cs
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Script\Player.cs
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Script\Player.cs
+        projectPath: Assets\Script\Player.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Script\SC_FPSController.cs
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Script\SC_FPSController.cs
+        projectPath: Assets\Script\SC_FPSController.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\SC_FPSController.cs.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Script\SC_FPSController.cs.meta
+        projectPath: Assets\Script\SC_FPSController.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\shoot.cs
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Script\shoot.cs
+        projectPath: Assets\Script\shoot.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Script\shoot.cs.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Script\shoot.cs.meta
+        projectPath: Assets\Script\shoot.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TP1.unity
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\TP1.unity
+        projectPath: Assets\TP1.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: c1c89d53ee3c5d32b28eea073d1443befcdecd27
+      mergeA: 
+      mergeB: 
+      authorName: tdeporte
+      authorEmail: tom.deporte@etu.u-bordeaux.fr
+      commitEmail: tom.deporte@etu.u-bordeaux.fr
+      commitName: tdeporte
+      summary: "Cam\xE9ra fps + tir"
+      description: 
+      timeString: 2021-11-27T19:49:43.000+01:00
+      commitTimeString: 2021-11-27T19:49:43.000+01:00
+      changes:
+      - path: Assets\Script\FPS.cs
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Script\FPS.cs
+        projectPath: Assets\Script\FPS.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\Player.cs
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Script\Player.cs
+        projectPath: Assets\Script\Player.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Script\shoot.cs
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Script\shoot.cs
+        projectPath: Assets\Script\shoot.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TP1.unity
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\TP1.unity
+        projectPath: Assets\TP1.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 23f3ab5c5d0777a9c31c4b8c46ee827a7e500db7
+      mergeA: 
+      mergeB: 
+      authorName: tdeporte
+      authorEmail: tom.deporte@etu.u-bordeaux.fr
+      commitEmail: tom.deporte@etu.u-bordeaux.fr
+      commitName: tdeporte
+      summary: Pathfinding du pauvre
+      description: 
+      timeString: 2021-11-26T20:27:55.000+01:00
+      commitTimeString: 2021-11-26T20:27:55.000+01:00
+      changes:
+      - path: Assets\Script\Player.cs
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Script\Player.cs
+        projectPath: Assets\Script\Player.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\TP1.unity
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\TP1.unity
+        projectPath: Assets\TP1.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: a445b18ee565d7728d673d5ceaf4b139a0cb88d1
+      mergeA: 
+      mergeB: 
+      authorName: tdeporte
+      authorEmail: tom.deporte@etu.u-bordeaux.fr
+      commitEmail: tom.deporte@etu.u-bordeaux.fr
+      commitName: tdeporte
+      summary: gjtfjt
+      description: 
+      timeString: 2021-11-25T18:52:41.000+01:00
+      commitTimeString: 2021-11-25T18:52:41.000+01:00
+      changes:
+      - path: Assets\Material.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Material.meta
+        projectPath: Assets\Material.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Material\Dirt.mat
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Material\Dirt.mat
+        projectPath: Assets\Material\Dirt.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Material\Dirt.mat.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Material\Dirt.mat.meta
+        projectPath: Assets\Material\Dirt.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Material\Grass.mat
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Material\Grass.mat
+        projectPath: Assets\Material\Grass.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Material\Grass.mat.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Material\Grass.mat.meta
+        projectPath: Assets\Material\Grass.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Script.meta
+        projectPath: Assets\Script.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\Player.cs
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Script\Player.cs
+        projectPath: Assets\Script\Player.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\Player.cs.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Script\Player.cs.meta
+        projectPath: Assets\Script\Player.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\Player.prefab
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Script\Player.prefab
+        projectPath: Assets\Script\Player.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Script\Player.prefab.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\Script\Player.prefab.meta
+        projectPath: Assets\Script\Player.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TP1.unity
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\TP1.unity
+        projectPath: Assets\TP1.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TP1.unity.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\TP1.unity.meta
+        projectPath: Assets\TP1.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\prefab.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\prefab.meta
+        projectPath: Assets\prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\prefab\BRIQUE.prefab
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\prefab\BRIQUE.prefab
+        projectPath: Assets\prefab\BRIQUE.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\prefab\BRIQUE.prefab.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\prefab\BRIQUE.prefab.meta
+        projectPath: Assets\prefab\BRIQUE.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\prefab\DIRT.prefab
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\prefab\DIRT.prefab
+        projectPath: Assets\prefab\DIRT.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\prefab\DIRT.prefab.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\prefab\DIRT.prefab.meta
+        projectPath: Assets\prefab\DIRT.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\prefab\GRASS.prefab
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\prefab\GRASS.prefab
+        projectPath: Assets\prefab\GRASS.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\prefab\GRASS.prefab.meta
+        fullPath: D:\Tom\Documents\M2\Unity\Unity_TP1\Unity_TP1\Assets\prefab\GRASS.prefab.meta
+        projectPath: Assets\prefab\GRASS.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
